@@ -1,0 +1,12 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+
+namespace ProjectManagementSystem.Models.TeacherModel
+{
+    public class GetAllTeachersViewModel
+    {
+        public IEnumerable<Teacher> Teachers { get; set; }
+    }
+}

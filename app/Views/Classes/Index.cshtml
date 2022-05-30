@@ -1,0 +1,52 @@
+﻿@using ProjectManagementSystem.Models.ClassModel
+@model             GetAllClassesViewModel
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1 class="my-5">Classes List</h1>
+
+<br />
+<a class="btn btn-outline-primary m-2" href='@Url.Action("AddClass", "Classes")'>Create class</a>
+<table class="table" BORDERCOLOR=#006666>
+    <thead>
+        <tr>
+
+            <th style="text-align:center">
+                @Html.DisplayName("Subject title")
+            </th>
+            <th></th>
+            <th></th>
+            <th style="text-align:center">
+                @Html.DisplayName("Description")
+            </th>
+            <th style="text-align:center">Delete Class</th>
+
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Classes)
+        {
+            <tr>
+
+                <td style="text-align:center">
+                        @Html.DisplayFor(model => item.Subject_Title)
+                </td>
+                <td>
+                    <a href='@Url.Action("EnrollToClass", "Student")' class="btn btn-sm btn-secondary">Enroll students</a>
+                </td>
+                <td>
+                    <a href='@Url.Action("Index", "Project")' class="btn btn-sm btn-secondary">View projects</a>
+                </td>
+                <td style="text-align:center">
+                    @Html.DisplayFor(model => item.Description)
+                </td>
+                <td style="text-align:center">
+                    <a asp-action="DeleteClass" asp-route-id="@item.Id">Delete</a>
+                </td>
+       
+            </tr>
+
+        }
+    </tbody>
+</table>

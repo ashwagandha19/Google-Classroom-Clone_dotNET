@@ -1,0 +1,31 @@
+﻿@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+
+@if (SignInManager.IsSignedIn(User))
+{
+    <div class="text-center">
+        <h1 class="display-4">Welcome to PMS</h1>
+    </div>
+    <div style="width: 100px; height: 100px;"> <img  style="width: 100%; height: 100%;" src="~/css/projlogo.png" alt="logo" class="center"> </div>
+}
+else
+{
+<div style="display: flex; justify-content: center; align-items: center; flex-direction: column;" class="m-5">
+    <div class=" align-self-lg-center">
+      <a class="nav-link text-dark "  asp-area="Identity" asp-page="/Account/_TeacherRegisterPartial" > <button class="btn btn-secondary">Register as teacher</button></a>
+    </div>
+    <div class=" align-right-lg-center">
+        <a class="nav-link text-dark " asp-area="Identity" asp-page="/Account/_StudentRegisterPartial"><button class="btn btn-secondary">Register as student</button></a>
+    </div>
+    <div style="width: 100px; height: 100px;"> <img style="width: 100%; height: 100%;" src="~/css/projlogo.png" alt="logo" class="center"> </div>
+</div>
+
+
+}

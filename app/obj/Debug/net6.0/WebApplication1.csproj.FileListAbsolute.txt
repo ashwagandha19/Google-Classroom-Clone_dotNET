@@ -1,0 +1,8 @@
+D:\FACULTATE\ANUL 3\SEM 2\SPAHIU\ProjectManagementSystem\WebApplication1\obj\Debug\net6.0\WebApplication1.csproj.AssemblyReference.cache
+D:\FACULTATE\ANUL 3\SEM 2\SPAHIU\ProjectManagementSystem\WebApplication1\obj\Debug\net6.0\WebApplication1.GeneratedMSBuildEditorConfig.editorconfig
+D:\FACULTATE\ANUL 3\SEM 2\SPAHIU\ProjectManagementSystem\WebApplication1\obj\Debug\net6.0\WebApplication1.AssemblyInfoInputs.cache
+D:\FACULTATE\ANUL 3\SEM 2\SPAHIU\ProjectManagementSystem\WebApplication1\obj\Debug\net6.0\WebApplication1.AssemblyInfo.cs
+D:\FACULTATE\ANUL 3\SEM 2\SPAHIU\ProjectManagementSystem\WebApplication1\obj\Debug\net6.0\WebApplication1.csproj.CoreCompileInputs.cache
+D:\FACULTATE\ANUL 3\SEM 2\SPAHIU\ProjectManagementSystem\WebApplication1\obj\Debug\net6.0\WebApplication1.MvcApplicationPartsAssemblyInfo.cache
+D:\FACULTATE\ANUL 3\SEM 2\SPAHIU\ProjectManagementSystem\WebApplication1\obj\Debug\net6.0\WebApplication1.RazorAssemblyInfo.cache
+D:\FACULTATE\ANUL 3\SEM 2\SPAHIU\ProjectManagementSystem\WebApplication1\obj\Debug\net6.0\WebApplication1.RazorAssemblyInfo.cs
